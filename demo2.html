@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body{
+    margin:0;
+}
+
+.header{
+    display: flex;
+    /* margin-left: 300px; */
+}
+.header h2{
+    margin-left: 300px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  width:100%;
+  border:1px solid wheat;
+  top: 0; /*the navigation bara locate at the top */
+ /* bottom:0%;the navigation bar locate at the bottom */
+
+  
+}
+li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: gray;
+}
+
+li {
+    float:left;
+
+}
+/* li a{
+    display: block;
+    padding: 5px;
+    background-color: gray;
+
+} */
+
+ li a:hover:not(.active){
+    background-color: black;
+ }
+
+li a.active{
+    background-color: rgb(2, 105, 95);
+}
+
+.buttons {
+            width: 100%;
+            text-align: right;
+            padding: 10px;
+        }
+
+        .buttons button {
+            font-size: medium;
+            border-radius: 25%;
+            font-family: 'Arial Narrow Bold', sans-serif;
+            border: none;
+            background-color:gray;
+            color: white;
+            cursor: pointer;
+            margin-right: 10px;
+            padding: 5px 10px;
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+            background: white;
+            border-radius: 25px;
+            padding: 5px 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+        }
+
+        .search-container button{
+            margin-left: 70%;
+        }
+
+        #search-box {
+            border: none;
+            outline: none;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 25px;
+            width: 300px;
+        }
+
+        .categories {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            /* flex-wrap: wrap; */
+            margin-top: 20px;
+            font-style: italic;
+            font-family:papyrus ;
+        }
+
+        .categories2 {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            /* flex-wrap: wrap; */
+            margin-top: 20px;
+            font-style: italic;
+            font-family:papyrus ;
+        }
+
+        .category {
+            text-align: center;
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            width: 200px;
+        }
+
+        .category img {
+            width: 100%;
+            /* height: auto; */
+            /* border-radius: 10px; */
+        }
+
+        .categories2 img{
+               width: 200px;
+               height: 200px;
+               transition: width 2s,height 2s;
+               background-color: aqua;
+            }
+
+            .categories2 img:hover{
+                width:150px;
+                height:150px;
+            }
+
+            .categories img{
+               width: 200px;
+               height: 200px;
+               transition: width 2s,height 2s;
+               background-color: aqua;
+            }
+
+            .categories img:hover{
+                width:150px;
+                height:150px;
+            }
+  
+</style>
+</head>
+<body>
+    <div class="buttons">
+        <a href="signup.html">
+            <button>Signup</button>
+        </a>
+        <a href="login.html">
+            <button>Login</button>
+        </a>
+    </div>
+
+    <div class="header">
+        <img src="https://m.media-amazon.com/images/I/51HCHFclmmL.jpg" height="100px">
+        <h2 style="font-family: papyrus; text-align: center;">Amazon</h2>
+        <!-- <p>Scroll down to see the sticky effect.</p> -->
+      </div>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#Best sellers">Best sellers</a></li>
+  <li><a href="#Amazon Basics">Amazon Basics</a></li>
+  <li><a href="#New Releases">New Releases</a></li>
+  <li><a href="#Today's deals">Today's deals</a></li>
+  <li style="float: right;"><a href="#about">About</a></li>
+</ul>
+
+<div class="search-container">
+    <input type="text" placeholder="Search..." id="search-box">
+    <button type="submit">🔍</button>
+</div>
+
+
+
+<!-- <div style="padding:0%;margin-top:40px;background-color:#1abc9c;height:1500px;">
+    <h1>Fixed Top Navigation Bar</h1>
+    <h2>Scroll this page to see the effect</h2>
+    <h2>The navigation bar will stay at the top of the page while scrolling</h2>
+  
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+  </div> -->
+
+  <img src="https://images.cnbctv18.com/wp-content/uploads/2022/10/amazon-1019x573.jpg" height="350px" width="100%">
+
+  <div class="categories">
+    <div class="category"><a href="#">
+        <img src="https://unicphscat.blob.core.windows.net/images-prd/s0000759.png" alt="South Indian" height="350px"></a>
+        <h5>winter wear</h5>
+    </div>
+    <div class="category"><a href="#">
+        <img src="https://indianetzone.wordpress.com/wp-content/uploads/2019/01/special-wedding-collection-by-utsav-fashion.jpg" alt="South Indian" height="1400px"></a>
+        <h5>North Indian</h5>
+    </div>
+    <div class="category"><a href="#">
+        <img src="https://image.shutterstock.com/z/stock-photo-south-indian-couples-in-traditional-dress-1139628014.jpg" alt="Italian" height="300px"></a>
+        <h5>South Indian</h5>
+    </div><br></div>
+    <div class="categories2">
+    <div class="category"><a href="#">
+        <img src="https://cdn.mothersalwaysright.com/wp-content/uploads/2024/11/indian-dresses-name-e1732015070918.jpeg" alt="South Indian" height="300px"></a>
+        <h5>Traditional</h5>
+    </div>
+    <div class="category"><a href="https://www.amazon.in/b?node=11400137031">
+        <img src="https://assets.vogue.com/photos/65f8604e619fe40d5e1b0301/master/pass/western_Trends_001.jpg" alt="South Indian" height="300px"></a>
+        <h5>Western</h5>
+    </div>
+
+    <div class="category"><a href="#">
+        <img src="https://imageio.forbes.com/specials-images/imageserve/62f41a29eec6c603aa750efd/Feature-Image-Summer-Clothing/960x0.jpg?format=jpg&width=960" alt="South Indian" height="300px"></a>
+        <h5>Summer wear</h5>
+    </div></div>
+</div>
+
+</body>
+</html>
+
+

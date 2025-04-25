@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+}
+
+.right-nav {
+  list-style-type: none;
+  margin-top: 75px;
+  padding: 0;
+  width: 25%;
+  /* background-color: #f1f1f1; */
+  
+  /* background-color: cadetblue; */
+  position: absolute;
+  /* height: 100%; */
+  overflow: auto;
+  right:0;
+  margin-top: 180px;
+}
+
+.left-nav {
+  list-style-type: none;
+  margin-top:  75px;
+  padding: 0;
+  width: 25%;
+  /* background-color: cadetblue; */
+  position:absolute;
+  /* height: 100%; */
+  overflow: auto;
+  left:0;
+  margin-top: 180px;
+}
+
+/* .body1 {
+  list-style-type: none;
+  margin-top:  75px;
+  padding: 0;
+  width: 25%;
+  /* background-color: cadetblue; */
+  /* position:absolute; */
+  /* height: 100%; */
+  /* overflow: auto;
+  left:0;
+  margin-top: 180px; */
+/* } */ 
+
+.top-nav {
+  list-style-type: none;
+  margin-top: 0px;
+  padding: 0;
+  width: 100%;
+  background-color:cadetblue;
+  position: sticky;
+  top:0;
+  
+  /* height: 100%; */
+  overflow:hidden;
+  
+}
+
+
+.top-nav li{
+  display: inline;
+}
+
+.top-nav li a{
+            display: inline-block;
+            color:white;
+            background-color: cadetblue;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+  
+.left-nav li{
+  background-color: #f1f1f1;
+ } 
+
+ .right-nav li{
+  background-color: #f1f1f1;
+ }
+
+ /* .body1 li{
+  background-color: #f1f1f1;
+ } */
+
+.left-nav li a,.right-nav li a{
+  display: block;
+  color: #000;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+.left-nav li a.active, .right-nav li a.active, .top-nav li a.active{
+  background-color: #04AA6D;
+  color: white;
+}
+
+.left-nav li a:hover:not(.active), .right-nav li a:hover:not(.active), .top-nav li a:hover:not(.active){
+  background-color: #555;
+  color: white;
+}
+.intro{
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+  margin-top: 0;
+}
+
+.intro img{
+  width: 100px;
+  height: 100px;
+ margin-right: 20px;
+}
+
+.intro h1{
+  font-family:  monospace;
+  
+  font-size: xx-large;
+   text-align: left; 
+}
+
+.outro{
+  background-color:black;
+}
+
+.links a{
+  color: black; text-decoration: none;
+  align-items: center;
+}
+
+.links a:hover{
+  color: blue;
+}
+
+</style>
+
+<title>college website</title>
+<link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+
+<ul class="right-nav">
+  <li><a href="#Admission">Admission</a>
+  </li>
+  <li><a href="#Chapters|Clubs|Society">Chapters|Clubs|Society</a></li>
+  <li><a href="#Academic Calender">Academic Calender</a></li>
+  <li><a href="#NCC|NSS|Yoga">NCC|NSS|Yoga</a></li>
+  <li><a href="#about">Magazine|Newsletter</a></li>
+  <li><a href="#about">Cells</a></li>
+  <li><a href="#about">Fees Payment</a></li>
+  <li><a href="#about">Hostel</a></li>
+</ul>
+
+<ul class="left-nav">
+  <li><a href="demo.html">Achievments</a></li>
+  <li><a href="https://www.svnit.ac.in/web/alumni/">Alumni</a></li>
+  <li><a href="https://www.svnit.ac.in/web/jobs.php">Career</a></li>
+  <li><a href="#about">RTI</a></li>
+  <li><a href="#about">Central Library</a></li>
+  <li><a href="#about">Ek Bharat Shreshtha Bharat</a></li>
+  <li><a href="#about">NIRF</a></li>
+</ul>
+<div class="intro">
+<img src="logo.png"> 
+<h1>Sardar Vallabhbhai National Institute of Technology,Surat</h1>
+</div>
+<ul class="top-nav">
+  <li><a class="active" href="#">Home</a></li>
+  <li><a href="#Administration">Administration</a></li>
+  <li><a href="#Departments">Departments</a></li>
+  <li><a href="Achievements.html">Achievements</a></li>
+  <li><a href="#Studentlife">Student life</a></li>
+  <li><a href="#Contactus">Contact us</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<img src="Screenshot 2025-03-24 205941.png" style="margin-left: 27%; height: 300px;width: 480px; margin-right: 50%;">
+
+<!-- <div style="margin-right:35%;margin-left:25%;padding:60px 16px;height:1000px;">
+  
+  <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+  <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to
+     25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+  <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav 
+    is too long (for example if it has over 50 links inside of it).</p>
+  <p>Some text..</p>
+  <p>Some text..</p>
+  <p>Some text..</p>
+  <p>Some text..</p>
+  <p>Some text..</p>
+  <p>Some text..</p>
+  <p>Some text..</p>
+</div> -->
+
+<img src="Screenshot 2025-03-25 014139.png" style="margin-left: 27%; height: 300px;width: 480px;">
+
+<div class="links">
+<br> <a href="#">Ph.D admission - July 2025 (Indian Nationals): Information brochure </a>
+<br><br><a href="#">Scheme beneficiaries at SVNIT </a>
+<br><br><a href="#">MBA Admission - 2025 : Information Brochure </a>
+<br><br><a href="#">Study in India - July 2025 (Foreign Nationals): Information brochure | Schedule | Apply online </a>
+</div>
+<!-- <div class="body1">
+  <h4>Student Notice</h4>
+  <ul class="Student">
+    <li><a href="demo.html">SVNIT Summer Research Intership Programme 2025</a></li>
+    <li><a href="#news"> Remission Granted/Not Granted Notice</a></li>
+    <li><a href="#contact">Notice for students from Institute Security System towards Vehicles & intoxicated materials</a></li>
+    <li><a href="#about">Mid Semester Examination March - 2025</a></li>
+    <li><a href="#about">KCG scheme letter 10-02-25</a></li>
+    <li><a href="#about">NOTICE FOR UNAUTHORISED EDITED VIDEO ON SOCIAL MEDIA</a></li>
+    <li><a href="#about">End Sem Examination for Evening Classes Students, DoME</a></li>
+  </ul>
+  
+</div> -->
+<div style="margin-right:35%;margin-left:25%;padding:60px 16px;height:auto;">
+  <div style="display: flex; justify-content: space-between; gap: 20px;">
+    
+    <!-- Student Notice Section -->
+    <div style="width: 32%;">
+      <h2>Student Notice</h2>
+      <ul style="list-style-type: none; padding: 0;">
+        <li><a href="#" style="color: blue; text-decoration: none;">B.Tech.-I Fee Remission 2024-25 :: Remission Granted/Not Granted Notice | Pending Notice | Remission Granted Notice-2</a></li>
+        <br><li><a href="#" style="color: blue; text-decoration: none;">Notice for students from Institute Security System towards Vehicles & intoxicated materials</a></li>
+        <br><li><a href="#" style="color: blue; text-decoration: none;">Mid Semester Examination March - 2025</a></li>
+        <br><li><a href="#" style="color: blue; text-decoration: none;">KCG scheme letter 10-02-25</a></li>
+        
+      </ul>
+    </div>
+
+    <!-- Events & Seminars Section -->
+    <div style="width: 32%;">
+      <h2>Events & Seminars</h2>
+      <li><a href="#" style="color: blue; text-decoration: none;">ISEA Five Days Short Term Course on AI/ML in CyberSecurity at SVNIT, Surat."Registration Deadline : 25th Feb, 2025"</a></li><br>
+      <br><li><a href="#" style="color: blue; text-decoration: none;">KCG scheme letter 10-02-25</a></li>
+    </div>
+
+    <!-- Tenders & Enquiries Section -->
+    <div style="width: 32%;">
+      <h2>Tenders & Enquiries</h2>
+      <ul style="list-style-type: none; padding: 0;">
+        <br><li><a href="#" style="color: blue; text-decoration: none;">Tender for "Annual Maintenance Contract for Uninterrupted Power Supply (UPS), Stabilizers, etc. at SVNIT, Surat."
+          Notice Inviting Tender for Sale of Discarded Mattresses, Pillow, Bed sheet etc from various hostels within the SVNIT campus, Surat, Gujarat-395007.
+          </a></li>
+       <br><li><a href="#" style="color: blue; text-decoration: none;">KCG scheme letter 10-02-25</a></li</ul>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="outro">
+  <pre style="color: aliceblue;">
+    
+    
+    Sardar Vallabhbhai National 
+    Institute of Technology,
+    Ichchhanath, Surat-395007, Gujarat,
+    INDIA
+
+    © 2024 SVNIT. All rights reserved
+  
+  </pre>
+
+</div>
+
+</body>
+</html>
+
+
